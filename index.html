@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Загадки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Загадки от Мухи</h1>
+         <div class="video-container">
+      <video id="myVideo" autoplay loop muted>
+        <source src="video/обезьяна-улыбается-в-камеру-эдит.webm" type="video/mp4">
+      </video>
+         </div>
+    <button id="toggleSoundButton">Включить звук</button>
+            <div class="riddle">
+                <p>Загадка 1: Что можно увидеть с закрытыми глазами?</p>
+                <button class="answer-btn" onclick="toggleAnswer(1)">Показать ответ</button>
+                <p id="answer1" class="answer" style="display: none;">Ответ: Сон</p>
+            </div>
+
+            <div class="riddle">
+                <p>Загадка 2: Что летает без крыльев?</p>
+                <button class="answer-btn" onclick="toggleAnswer(2)">Показать ответ</button>
+                <p id="answer2" class="answer" style="display: none;">Ответ: Время</p>
+            </div>
+
+            <div class="riddle">
+                <p>Загадка 3: Что идет по лесу и никого не обгонит?</p>
+                <button class="answer-btn" onclick="toggleAnswer(3)">Показать ответ</button>
+                <p id="answer3" class="answer" style="display: none;">Ответ: Дорога</p>
+            </div>
+
+            <div class="riddle">
+                <p>Загадка 4: Что может быть сломано, но нельзя увидеть?</p>
+                <button class="answer-btn" onclick="toggleAnswer(4)">Показать ответ</button>
+                <p id="answer4" class="answer" style="display: none;">Ответ: Сердце</p>
+            </div>
+
+            <div class="riddle">
+                <p>Загадка 5: Какой шар нельзя бросить?</p>
+                <button class="answer-btn" onclick="toggleAnswer(5)">Показать ответ</button>
+                <p id="answer5" class="answer" style="display: none;">Ответ: Шарф</p>
+            </div>
+
+        <div class="riddle">
+                <p>Загадка 6: Что увеличивается, если убрать от него часть?</p>
+                <button class="answer-btn" onclick="toggleAnswer(6)">Показать ответ</button>
+                <p id="answer6" class="answer" style="display: none;">Ответ: Шум</p>
+        </div>
+</body>
+<script src="app.js"></script>
+</html>
+
